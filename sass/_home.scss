@@ -1,0 +1,35 @@
+img.big_logo {
+	margin: 0 auto;
+	display: block;
+	padding-top: 20rem;	
+}
+
+.home-search{
+	@include font-size(3);
+	text-align: center;
+	padding: 1rem;
+	font-family: $muli;
+	display: block;
+	margin: 6rem auto;
+	width: 555px;
+}
+
+.strapline {
+	font-family: $pacifico;
+	color: white;
+	@include font-size(3.5);
+	text-align: center;
+}
+
+.login-home-wrapper {
+	float: right;
+	color: white;
+	font-family: $muli;
+	@include font-size(1.8);	
+	padding-top: 2rem;
+	margin-left: -10rem;
+}
+
+a {
+	text-decoration: none;
+}

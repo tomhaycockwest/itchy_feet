@@ -89,7 +89,7 @@ html {
   .container .sidebar {
     width: 80px;
     height: 1000px;
-    margin-top: 12rem;
+    margin-top: 4rem;
     position: relative;
     display: block;
     float: left; }
@@ -259,6 +259,45 @@ html {
       float: right;
       margin-top: -2rem; }
 
-/* line 12, ../sass/style.scss */
+/* line 1, ../sass/_home.scss */
+img.big_logo {
+  margin: 0 auto;
+  display: block;
+  padding-top: 20rem; }
+
+/* line 7, ../sass/_home.scss */
+.home-search {
+  font-size: 30px;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+  display: block;
+  margin: 6rem auto;
+  width: 555px; }
+
+/* line 17, ../sass/_home.scss */
+.strapline {
+  font-family: "Pacifico", Helvetica, Arial, sans-serif;
+  color: white;
+  font-size: 35px;
+  font-size: 3.5rem;
+  text-align: center; }
+
+/* line 24, ../sass/_home.scss */
+.login-home-wrapper {
+  float: right;
+  color: white;
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+  margin-left: -10rem; }
+
+/* line 33, ../sass/_home.scss */
+a {
+  text-decoration: none; }
+
+/* line 13, ../sass/style.scss */
 html {
   font-size: 62.5%; }
