@@ -115,49 +115,69 @@ html {
       height: 280px;
       border: 1px solid #c6c6c6;
       position: relative; }
-      /* line 63, ../sass/_main.scss */
+      /* line 65, ../sass/_main.scss */
       .container .card_container .item .add,
-      .container .card_container .item .itch {
+      .container .card_container .item .itch,
+      .container .card_container .item .strapline {
         background: #dbdbdb;
         display: block;
         width: 140px;
         height: 50px;
         position: absolute;
         bottom: 0; }
-        /* line 71, ../sass/_main.scss */
+        /* line 73, ../sass/_main.scss */
         .container .card_container .item .add .plus-icon,
-        .container .card_container .item .itch .plus-icon {
+        .container .card_container .item .itch .plus-icon,
+        .container .card_container .item .strapline .plus-icon {
           display: block;
           margin: 0.8rem auto; }
-        /* line 76, ../sass/_main.scss */
+        /* line 78, ../sass/_main.scss */
         .container .card_container .item .add .foot-icon,
-        .container .card_container .item .itch .foot-icon {
+        .container .card_container .item .itch .foot-icon,
+        .container .card_container .item .strapline .foot-icon {
           display: block;
           margin: 0.6rem auto; }
-      /* line 83, ../sass/_main.scss */
+      /* line 85, ../sass/_main.scss */
       .container .card_container .item .add {
         left: 0;
         border-top: 1px solid #c6c6c6; }
-      /* line 88, ../sass/_main.scss */
+      /* line 90, ../sass/_main.scss */
       .container .card_container .item .itch {
         right: 0;
         border-top: 1px solid #c6c6c6;
         border-left: 1px solid #c6c6c6; }
+      /* line 96, ../sass/_main.scss */
+      .container .card_container .item .strapline {
+        bottom: 50px;
+        height: 40px;
+        width: 280px;
+        font-family: "Muli", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-size: 1.6rem;
+        text-align: center;
+        background-color: transparent;
+        background-color: rgba(255, 255, 255, 0.78);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#C7FFFFFF,endColorstr=#C7FFFFFF);
+        zoom: 1; }
+        /* line 105, ../sass/_main.scss */
+        .container .card_container .item .strapline p {
+          padding-top: 1rem;
+          color: #2f2f2f; }
 
 /**** Isotope Filtering ****/
-/* line 100, ../sass/_main.scss */
+/* line 117, ../sass/_main.scss */
 .isotope-item {
   z-index: 2;
   margin-top: 4rem;
   margin-left: 4rem; }
 
-/* line 106, ../sass/_main.scss */
+/* line 123, ../sass/_main.scss */
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1; }
 
 /**** Isotope CSS3 transitions ****/
-/* line 114, ../sass/_main.scss */
+/* line 131, ../sass/_main.scss */
 .isotope,
 .isotope .isotope-item {
   -webkit-transition-duration: 0.8s;
@@ -166,7 +186,7 @@ html {
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s; }
 
-/* line 122, ../sass/_main.scss */
+/* line 139, ../sass/_main.scss */
 .isotope {
   -webkit-transition-property: height, width;
   -moz-transition-property: height, width;
@@ -174,7 +194,7 @@ html {
   -o-transition-property: height, width;
   transition-property: height, width; }
 
-/* line 130, ../sass/_main.scss */
+/* line 147, ../sass/_main.scss */
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
   -moz-transition-property: -moz-transform, opacity;
@@ -183,7 +203,7 @@ html {
   transition-property: transform, opacity; }
 
 /**** disabling Isotope CSS3 transitions ****/
-/* line 142, ../sass/_main.scss */
+/* line 159, ../sass/_main.scss */
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
@@ -218,8 +238,9 @@ html {
       text-align: center;
       font-size: 18px;
       font-size: 1.8rem;
-      font-family: "Muli", Helvetica, Arial, sans-serif; }
-    /* line 29, ../sass/_header.scss */
+      font-family: "Muli", Helvetica, Arial, sans-serif;
+      color: #f8f8f8; }
+    /* line 30, ../sass/_header.scss */
     .header .header-container .join-login {
       margin: 0 auto;
       display: block;
@@ -229,11 +250,11 @@ html {
       font-family: "Muli", Helvetica, Arial, sans-serif;
       color: #f8f8f8;
       padding: 2rem 0 0 0; }
-      /* line 39, ../sass/_header.scss */
+      /* line 40, ../sass/_header.scss */
       .header .header-container .join-login a {
         text-decoration: none;
         color: #f8f8f8; }
-    /* line 45, ../sass/_header.scss */
+    /* line 46, ../sass/_header.scss */
     .header .header-container .new-itch {
       float: right;
       margin-top: -2rem; }
