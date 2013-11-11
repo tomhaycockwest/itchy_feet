@@ -16,8 +16,8 @@ html {
 	margin: 0 auto;
 
 	.travelling-to {
-		@include font-size(2.5);
-		font-family: $sans-serif;
+		@include font-size(2);
+		font-family: $muli;
 		color: $verydarkgrey;
 		padding-top: 3.5rem;
 
@@ -34,8 +34,14 @@ html {
 		display: block;
 		float: left;
 
+		.checklist {
+			float: left;
+			padding-left: 10px;
+		}
+
 		.flag {
 			float: left;
+			padding-top: 15px;
 		}
 	}
 

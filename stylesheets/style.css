@@ -77,9 +77,9 @@ html {
   margin: 0 auto; }
   /* line 18, ../sass/_main.scss */
   .container .travelling-to {
-    font-size: 25px;
-    font-size: 2.5rem;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-size: 2rem;
+    font-family: "Muli", Helvetica, Arial, sans-serif;
     color: #333333;
     padding-top: 3.5rem; }
     /* line 24, ../sass/_main.scss */
@@ -94,15 +94,20 @@ html {
     display: block;
     float: left; }
     /* line 37, ../sass/_main.scss */
+    .container .sidebar .checklist {
+      float: left;
+      padding-left: 10px; }
+    /* line 42, ../sass/_main.scss */
     .container .sidebar .flag {
-      float: left; }
-  /* line 42, ../sass/_main.scss */
+      float: left;
+      padding-top: 15px; }
+  /* line 48, ../sass/_main.scss */
   .container .card_container {
     float: left;
     width: 1020px;
     display: block;
     position: relative; }
-    /* line 48, ../sass/_main.scss */
+    /* line 54, ../sass/_main.scss */
     .container .card_container .item {
       display: block;
       background: #e7e7e7;
@@ -110,7 +115,7 @@ html {
       height: 280px;
       border: 1px solid #c6c6c6;
       position: relative; }
-      /* line 57, ../sass/_main.scss */
+      /* line 63, ../sass/_main.scss */
       .container .card_container .item .add,
       .container .card_container .item .itch {
         background: #dbdbdb;
@@ -119,40 +124,40 @@ html {
         height: 50px;
         position: absolute;
         bottom: 0; }
-        /* line 65, ../sass/_main.scss */
+        /* line 71, ../sass/_main.scss */
         .container .card_container .item .add .plus-icon,
         .container .card_container .item .itch .plus-icon {
           display: block;
           margin: 0.8rem auto; }
-        /* line 70, ../sass/_main.scss */
+        /* line 76, ../sass/_main.scss */
         .container .card_container .item .add .foot-icon,
         .container .card_container .item .itch .foot-icon {
           display: block;
           margin: 0.6rem auto; }
-      /* line 77, ../sass/_main.scss */
+      /* line 83, ../sass/_main.scss */
       .container .card_container .item .add {
         left: 0;
         border-top: 1px solid #c6c6c6; }
-      /* line 82, ../sass/_main.scss */
+      /* line 88, ../sass/_main.scss */
       .container .card_container .item .itch {
         right: 0;
         border-top: 1px solid #c6c6c6;
         border-left: 1px solid #c6c6c6; }
 
 /**** Isotope Filtering ****/
-/* line 94, ../sass/_main.scss */
+/* line 100, ../sass/_main.scss */
 .isotope-item {
   z-index: 2;
   margin-top: 4rem;
   margin-left: 4rem; }
 
-/* line 100, ../sass/_main.scss */
+/* line 106, ../sass/_main.scss */
 .isotope-hidden.isotope-item {
   pointer-events: none;
   z-index: 1; }
 
 /**** Isotope CSS3 transitions ****/
-/* line 108, ../sass/_main.scss */
+/* line 114, ../sass/_main.scss */
 .isotope,
 .isotope .isotope-item {
   -webkit-transition-duration: 0.8s;
@@ -161,7 +166,7 @@ html {
   -o-transition-duration: 0.8s;
   transition-duration: 0.8s; }
 
-/* line 116, ../sass/_main.scss */
+/* line 122, ../sass/_main.scss */
 .isotope {
   -webkit-transition-property: height, width;
   -moz-transition-property: height, width;
@@ -169,7 +174,7 @@ html {
   -o-transition-property: height, width;
   transition-property: height, width; }
 
-/* line 124, ../sass/_main.scss */
+/* line 130, ../sass/_main.scss */
 .isotope .isotope-item {
   -webkit-transition-property: -webkit-transform, opacity;
   -moz-transition-property: -moz-transform, opacity;
@@ -178,7 +183,7 @@ html {
   transition-property: transform, opacity; }
 
 /**** disabling Isotope CSS3 transitions ****/
-/* line 136, ../sass/_main.scss */
+/* line 142, ../sass/_main.scss */
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
@@ -211,23 +216,24 @@ html {
       display: block;
       float: left;
       text-align: center;
-      font-size: 25px;
-      font-size: 2.5rem; }
-    /* line 28, ../sass/_header.scss */
+      font-size: 18px;
+      font-size: 1.8rem;
+      font-family: "Muli", Helvetica, Arial, sans-serif; }
+    /* line 29, ../sass/_header.scss */
     .header .header-container .join-login {
       margin: 0 auto;
       display: block;
-      font-size: 15px;
-      font-size: 1.5rem;
+      font-size: 14px;
+      font-size: 1.4rem;
       width: 8%;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Muli", Helvetica, Arial, sans-serif;
       color: #f8f8f8;
       padding: 2rem 0 0 0; }
-      /* line 38, ../sass/_header.scss */
+      /* line 39, ../sass/_header.scss */
       .header .header-container .join-login a {
         text-decoration: none;
         color: #f8f8f8; }
-    /* line 44, ../sass/_header.scss */
+    /* line 45, ../sass/_header.scss */
     .header .header-container .new-itch {
       float: right;
       margin-top: -2rem; }
